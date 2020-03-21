@@ -1,0 +1,88 @@
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: 'Roboto';
+
+  font-display: swap;
+  src: url('../fonts/roboto.woff2') format('woff2'), url('../fonts/roboto.woff') format('woff');
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 500;
+  font-family: 'Roboto';
+
+  font-display: swap;
+  src: url('../fonts/robotomedium.woff2') format('woff2'), url('../fonts/robotomedium.woff') format('woff');
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'Roboto';
+
+  font-display: swap;
+  src: url('../fonts/robotobold.woff2') format('woff2'), url('../fonts/robotobold.woff') format('woff');
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: $mainFont;
+  color: black;
+
+  background-color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+fieldset,
+button,
+input {
+  margin: 0;
+  padding: 0;
+}
+
+
+fieldset {
+  border: none;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: $blackFontColor;
+  text-decoration: none;
+
+  outline: none;
+}
+
+input,
+button {
+  font: inherit;
+}
+
+button {
+  border: none;
+  outline: none;
+}

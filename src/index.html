@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test task</title>
+</head>
+<body>
+	<main>
+		<nav class="menu">
+			<ul class="menu__list">
+				<li class="menu__item">
+					<a class="menu__link" href="#" title="Элемент меню">
+						Элемент меню
+					</a>
+				</li>
+				<li class="menu__item">
+					<a class="menu__link menu__link--current" title="Элемент меню с наведением">
+						Элемент меню с наведением
+					</a>
+				</li>
+				<li class="menu__item">
+					<a class="menu__link" href="#" title="Еще один элемент у которого очень длинный текст">
+						Еще один элемент у которого очень длинный текст
+					</a>
+				</li>
+				<li class="menu__item">
+					<a class="menu__link" href="#" title="Еще один элемент">
+						Еще один элемент
+					</a>
+				</li>
+				<li class="menu__item">
+					<a class="menu__link" href="#" title="Еще один элемент">
+						Еще один элемент
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<form class="form">
+			<h1 class="form__title">Регистрация</h1>
+			<fieldset class="form__fieldset">
+				<label class="form__label">E-mail
+					<input class="form__input" type="email" name="email" placeholder="example@site.domain" required>
+				</label>
+				<label class="form__label form__label--slim">Пароль
+					<input class="form__input" type="password" name="password" placeholder="password" minlength="5"
+						maxlength="15" required
+					>
+				</label>
+				<label class="form__label form__label--slim">Повторите пароль
+					<input class="form__input" type="password" name="confirm" placeholder="password" minlength="5"
+						maxlength="15" required
+					>
+				</label>
+				<label class="form__label">ФИО
+					<input class="form__input" type="text" name="personal" placeholder="Игорев Игорь Игоревич"
+						minlength="4" maxlength="40" required
+					>
+				</label>
+				<label class="form__label form__label--slim">Возраст
+					<input class="form__input" type="number" name="age" placeholder="18" min="5" max="100" required>
+				</label>
+			</fieldset>
+			<button class="form__button form__button--send" title="Отправить">
+				Отправить
+			</button>
+			<button class="form__button form__button--break" type="button" title="Отмена">
+				Отмена
+			</button>
+		</form>
+		<nav class="breadcrumbs">
+			<ul class="breadcrumbs__list">
+				<li class="breadcrumbs__item">
+					<a class="breadcrumbs__link" href="#" title="Шаг 1">
+						Шаг 1
+					</a>
+				</li>
+				<li class="breadcrumbs__item">
+					<a class="breadcrumbs__link breadcrumbs__link--current" title="Текущий шаг">
+						Шаг 2
+					</a>
+				</li>
+				<li class="breadcrumbs__item">
+					<a class="breadcrumbs__link breadcrumbs__link--last" href="#" title="Шаг 3">
+						Шаг 3
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</main>
+</body>
+</html>
